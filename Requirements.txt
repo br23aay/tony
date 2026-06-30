@@ -1,0 +1,6 @@
+flask
+flask-cors
+requests
+ddgs
+beautifulsoup4
+edge-tts

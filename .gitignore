@@ -1,0 +1,6 @@
+﻿venv/
+tony_db/
+*.sqlite3
+google_token.json
+spotify_token.json
+*.pem

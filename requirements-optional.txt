@@ -1,0 +1,26 @@
+# Optional extras — install only the features you want.
+#   pip install -r requirements-optional.txt
+# Tony runs fine without any of these; each unlocks one capability.
+
+# Document Q&A (vector index over your files). NOTE: the markdown memory
+# vault now covers everyday memory without these, so they're truly optional.
+chromadb
+sentence-transformers
+
+# Reading PDFs / Word docs you point Tony at
+pypdf
+python-docx
+
+# Exporting generated content to PDF (fpdf2 preferred, reportlab as fallback)
+fpdf2
+reportlab
+
+# Gmail (read-only) and Google Calendar
+google-auth
+google-auth-oauthlib
+google-api-python-client
+
+# Fully-local voice (offline). Heavy + slow on a no-GPU laptop; optional.
+faster-whisper        # local speech-to-text (ears)
+kokoro                # local text-to-speech (mouth)
+soundfile             # audio I/O for Kokoro
